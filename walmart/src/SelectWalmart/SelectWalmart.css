@@ -1,0 +1,84 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .page-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  } 
+
+  .toggle-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 10px;
+    border: none; 
+    text-align: center;
+    position: relative;
+  }
+
+  th:nth-child(1) {
+    width: 2/12;
+  }
+
+  th:nth-child(2) {
+    width: 6/12;
+  }
+
+   th:nth-child(3),
+  td:nth-child(3) {
+    width: 2/12;
+  } 
+  
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 2/12;
+    position: relative;
+  } 
+
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  } 
+
+   tbody tr {
+    margin-bottom: 10px;
+  } 
+
+   tbody tr:last-child {
+    margin-bottom: 0;
+  } 
+
+  .select-button {
+    padding: 5px 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }  
